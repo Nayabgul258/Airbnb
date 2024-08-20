@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+
+
+.container{
+   flex: 1; 
+}
+/* nanbar */
+
+.navbar {
+    height: 110px;
+}
+
+.fa-compass{
+   color: #ff385c; 
+   font-size: 2rem;
+}
+.nav-link{
+  color: #222222 !important;  
+  font-size: 1.5rem;
+  
+}
+
+
+.f-info{
+    height: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start ;
+    justify-content:space-evenly;
+    background-color: #ffffff;
+    
+}
+
+.f-info-links{
+    width: 60%;
+}
+
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+    font-size: 1rem
+   
+}
+
+.f-info-links a:hover{
+   text-decoration: underline; 
+}
+.f-info-social{
+    font-size: 1.5rem;
+}
+
+.f-info-social i{
+    margin: 10px;
+}
+
+/* card */
+
+.row{
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+.listing-card{
+    border: none !important;
+    margin-bottom: 1rem;
+}
+
+.card-img-top{
+ border-radius: 1rem !important;
+ width: 100% !important;
+ object-fit: cover !important;
+}
+.card-body{
+ padding: 0 !important;  
+}
+
+.card-text p{
+   font-style: normal !important;
+}
+
+.listing-link{
+    text-decoration: none;
+    color: #222222;
+}
+
+.card-img-overlay{
+    opacity: 0;
+    color: #ff385c;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+    color: #ff385c;
+}
+
+
+/* new page  */
+.add-btn{
+    background-color: #ff385c !important;
+    border: none !important;
+}
+
+.edit-btn{
+    background-color: #ff385c !important;
+    border: none !important;
+}
+/* show route style */
+.show-img {
+ height: 30vh;
+}
+
+.btns{
+    display: flex;
+    font-size: 12px;
+  
+}
+.show-card{
+   padding-left: 0;
+   padding-right: 0; 
+}
+
+
+.fa-airbnb{
+    font-size: 40px;
+    color: #ff385c;
+}
